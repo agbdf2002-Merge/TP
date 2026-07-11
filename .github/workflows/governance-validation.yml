@@ -1,0 +1,30 @@
+name: Governance Repository Validation
+
+on:
+  pull_request:
+    paths:
+      - 'registers/**'
+      - 'schemas/**'
+      - 'governance/**'
+      - 'knowledge/**'
+  workflow_dispatch:
+
+jobs:
+  validate-governance-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate required repository paths
+        run: |
+          test -d governance/technology-policy
+          test -d governance/standards
+          test -d governance/templates
+          test -d registers/master
+          test -d schemas/json
+          test -d schemas/yaml
+          test -d knowledge/taxonomy
+          test -d knowledge/object-model
+          test -d knowledge/control-plane
+      - name: List governance artifacts
+        run: |
+          find governance registers schemas knowledge -maxdepth 4 -type f | sort
