@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/technology-governance-object.schema.json",
+  "title": "Technology Governance Object",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "objectType",
+    "description",
+    "owner",
+    "status",
+    "version"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "objectType": { "type": "string" },
+    "description": { "type": "string" },
+    "executiveOwner": { "type": "string" },
+    "owner": { "type": "string" },
+    "responsibleOrganization": { "type": "string" },
+    "lifecycleState": { "type": "string" },
+    "status": { "type": "string" },
+    "version": { "type": "string" },
+    "reviewFrequency": { "type": "string" },
+    "relatedPolicies": { "type": "array", "items": { "type": "string" } },
+    "relatedStandards": { "type": "array", "items": { "type": "string" } },
+    "relatedRequirements": { "type": "array", "items": { "type": "string" } },
+    "relatedControls": { "type": "array", "items": { "type": "string" } },
+    "regulatoryReferences": { "type": "array", "items": { "type": "string" } },
+    "systemsOfRecord": { "type": "array", "items": { "type": "string" } },
+    "evidenceSources": { "type": "array", "items": { "type": "string" } },
+    "technologyDomains": { "type": "array", "items": { "type": "string" } },
+    "businessCapabilities": { "type": "array", "items": { "type": "string" } },
+    "applications": { "type": "array", "items": { "type": "string" } },
+    "services": { "type": "array", "items": { "type": "string" } }
+  }
+}
