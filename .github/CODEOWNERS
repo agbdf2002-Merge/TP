@@ -1,0 +1,10 @@
+# Default governance owners
+# Replace placeholder teams/users with actual GitHub teams when repository access model is finalized.
+
+* @agbdf2002-Merge
+/governance/technology-policy/ @agbdf2002-Merge
+/governance/standards/ @agbdf2002-Merge
+/governance/templates/ @agbdf2002-Merge
+/registers/ @agbdf2002-Merge
+/schemas/ @agbdf2002-Merge
+/knowledge/ @agbdf2002-Merge
