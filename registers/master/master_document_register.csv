@@ -1,0 +1,16 @@
+Document ID,Document Name,Document Type,Owner,Executive Owner,Status,Review Frequency,System of Record,Related Domain
+ETP-DOC-001,Enterprise Technology Policy,Policy,Head of Enterprise Architecture,CIO,Draft,Annual,GitHub / SharePoint,All
+ETP-DOC-002,Enterprise Architecture Standard,Standard,Head of Enterprise Architecture,CIO,Draft,Annual,GitHub / ServiceNow,Governance
+ETP-DOC-003,Technology Governance Standard,Standard,Head of Enterprise Architecture,CIO,Draft,Annual,GitHub / ServiceNow,Governance
+ETP-DOC-004,Technology Lifecycle Standard,Standard,Head of Enterprise Architecture,CIO,Draft,Annual,GitHub / ServiceNow,Application Lifecycle
+ETP-DOC-005,ARB Operating Model,Operating Model,Head of Enterprise Architecture,CIO,Draft,Annual,GitHub / ServiceNow,ARB
+ETP-DOC-006,Master Requirements Register,Register,Head of Enterprise Architecture,CIO,Active,Quarterly,GitHub / Archer,Requirements
+ETP-DOC-007,Master Control Register,Register,Technology Risk,CRO / CIO,Active,Quarterly,GitHub / Archer,Controls
+ETP-DOC-008,Regulatory Traceability Matrix,Register,Technology Risk,CRO / CIO,Draft,Quarterly,GitHub / Archer,Traceability
+ETP-DOC-009,Enterprise Technology Taxonomy,Taxonomy,Head of Enterprise Architecture,CIO,Draft,Quarterly,GitHub / ServiceNow,Taxonomy
+ETP-DOC-010,Enterprise Object Model,Model,Head of Enterprise Architecture,CIO,Draft,Quarterly,GitHub / ServiceNow,Object Model
+ETP-DOC-011,Architecture Evidence Pack Template,Template,Head of Enterprise Architecture,CIO,Active,Annual,GitHub / ServiceNow,Evidence
+ETP-DOC-012,Exception and Waiver Register,Register,Head of Enterprise Architecture,CIO,Active,Monthly,ServiceNow / Archer,Exceptions
+ETP-DOC-013,Architecture Decision Record Template,Template,Head of Enterprise Architecture,CIO,Active,Annual,GitHub / ServiceNow,Decision Records
+ETP-DOC-014,Architecture Principles Register,Register,Head of Enterprise Architecture,CIO,Draft,Annual,GitHub / ServiceNow,Principles
+ETP-DOC-015,Architecture KPI KRI Dashboard,Dashboard,Head of Enterprise Architecture,CIO,Draft,Monthly,ServiceNow / Power BI,Metrics
