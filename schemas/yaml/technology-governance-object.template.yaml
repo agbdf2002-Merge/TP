@@ -1,0 +1,23 @@
+# Technology Governance Object Template
+id: ""
+name: ""
+objectType: ""
+description: ""
+executiveOwner: ""
+owner: ""
+responsibleOrganization: ""
+lifecycleState: "Draft"
+status: "Active"
+version: "0.1"
+reviewFrequency: "Annual"
+relatedPolicies: []
+relatedStandards: []
+relatedRequirements: []
+relatedControls: []
+regulatoryReferences: []
+systemsOfRecord: []
+evidenceSources: []
+technologyDomains: []
+businessCapabilities: []
+applications: []
+services: []
