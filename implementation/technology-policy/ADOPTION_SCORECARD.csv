@@ -1,0 +1,21 @@
+Scorecard_ID,Domain,Measure,Target,Current_Status,Owner,Frequency,Source_System,Escalation_Trigger,Notes
+ADOPT-001,Repository Governance,Repository steward assigned,100%,Not Started,Enterprise Architecture,Monthly,GitHub,No steward assigned within 30 days,Confirms ownership of baseline and change control
+ADOPT-002,Publication,Final baseline distributed,100%,Not Started,Enterprise Architecture / OCIO,One-Time,Document Management,Distribution not completed within 30 days,Tracks final package routing
+ADOPT-003,ARB Operations,ARB operating cadence active,Active,Not Started,Enterprise Architecture,Monthly,ARB Calendar / ServiceNow,No ARB cadence established,Core material-change gate
+ADOPT-004,ARB Operations,Material change submissions reviewed before implementation,>=95%,Not Started,ARB,Monthly,ServiceNow EA/APM,Rate below target,Leading governance control
+ADOPT-005,Requirements,Requirement owners confirmed,100%,Not Started,Enterprise Architecture,Monthly,Master Requirements Register,Any orphan requirement,Control-plane integrity measure
+ADOPT-006,Controls,Control owners confirmed,100%,Not Started,Technology Risk / EA,Monthly,Master Control Register,Any orphan control,Required for operating controls
+ADOPT-007,Evidence,Evidence sources assigned to controls,100%,Not Started,Risk / Control Owners,Monthly,Evidence Library,Any control missing evidence,Audit-readiness control
+ADOPT-008,Evidence,Priority control evidence collected,>=80%,Not Started,Control Owners,Monthly,Archer / ServiceNow IRM / Evidence Library,Rate below target,Initial operating effectiveness milestone
+ADOPT-009,RTM,Expanded RTM validated,100%,Not Started,EA / Compliance,Quarterly,RTM Register,Traceability gap,Regulatory defensibility measure
+ADOPT-010,Exceptions,Exception and waiver register active,Active,Not Started,ARB / Risk,Monthly,Exception Register / IRM,No active register,Prevents uncontrolled deviation
+ADOPT-011,Lifecycle,Technology lifecycle owners assigned,>=90%,Not Started,EA / ITAM / Operations,Monthly,APM / CMDB / ITAM,Rate below target,Supports lifecycle risk governance
+ADOPT-012,Lifecycle,EOL/EOS exposure report produced,Monthly,Not Started,EA / ITAM,Monthly,APM / CMDB / ITAM,Report not produced,Key technology risk measure
+ADOPT-013,ServiceNow,ServiceNow implementation decision captured,Documented,Deferred,ServiceNow Platform Owner / EA,Monthly,ServiceNow / GitHub,No decision record,May be implement/defer/waive
+ADOPT-014,Archer_IRM,Archer/IRM implementation decision captured,Documented,Deferred,Risk Platform Owner,Monthly,Archer / GitHub,No decision record,May be implement/defer/waive
+ADOPT-015,ADO_Jira,ADO/Jira workflow decision captured,Documented,Deferred,Engineering Enablement,Monthly,ADO / Jira / GitHub,No decision record,May be implement/defer/waive
+ADOPT-016,Metrics,Monthly governance dashboard produced,Monthly,Not Started,EA / Risk,Monthly,Metrics Register,Dashboard not produced,Executive visibility measure
+ADOPT-017,Communications,Stakeholder communication issued,100%,Not Started,EA / OCIO,One-Time,Email / SharePoint,No communication within 30 days,Adoption enablement
+ADOPT-018,Training,ARB/evidence training completed for core stakeholders,>=80%,Not Started,EA / Workforce Enablement,Monthly,LMS / Attendance Record,Rate below target,Reduces bypass and evidence quality risk
+ADOPT-019,Audit_Readiness,Audit evidence package assembled for priority controls,>=1 package,Not Started,Risk / EA,Quarterly,Evidence Library,No package by first quarterly review,Proves control-plane readiness
+ADOPT-020,Release_Governance,TP-vNext backlog created,Created,Not Started,EA Repository Steward,Quarterly,GitHub,No backlog by quarterly review,Maintains release governance
